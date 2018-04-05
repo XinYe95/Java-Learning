@@ -1,6 +1,6 @@
 # 1. 时间处理相关类：
  
-  - java.util.Date：核心
+  * java.util.Date：核心
   - java.sql.Date/Time/Timestamp: 数据库相关，继承核心
   - java.text.DateFormat：时间格式化
   - java.text.SimpleDateFormat：时间和字符串转换
