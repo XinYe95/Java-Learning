@@ -9,10 +9,11 @@
 
 # 2. Date时间类(java.util.Date)：
   * 在标准Java类库中包含一个Date类。它的对象表示一个特定的瞬间。
-  * Java中如何表现时间：选择1970.1.1 0点作为标准纪元。从该时刻开始到某个时刻的毫秒数，类型是long。在零点之前，就用负数表示。
->//The class Date represents a specific instant in time, with millisecond precision
->//public Date() {
->//this(System.currentTimeMillis());
+  * Java中如何表现时间：选择1970.1.1 0点作为标准纪元。从该时刻开始到某个时刻的毫秒数，类型是long。在零点之前，就用负数表示。
+```
+//The class Date represents a specific instant in time, with millisecond precision
+//public Date() {
+//this(System.currentTimeMillis());
 //}
 Date d = new Date();
 long t = System.currentTimeMillis();
@@ -37,5 +38,5 @@ System.out.println(d2.toGMTString());//1 Jan 1970 06:30:32 GMT
 Date d3 = new Date(434234);
 Date d4 = new Date(1000);
 System.out.println(d3.compareTo(d4));
-
+```
 
